@@ -1,0 +1,42 @@
+.orlyatko {
+    padding: 0 30%;
+    background: radial-gradient(#333, #111 60%);
+    position: relative;
+
+    &__stellar {
+        position: relative;
+        margin: 0 auto 150px;
+    }
+
+    &__svg {
+        fill: none;
+        stroke: #8e44ad;
+        stroke-width: 3;
+        stroke-dasharray: 5000;
+        stroke-dashoffset: 0;
+        -webkit-animation: dash 4s linear;
+        -moz-animation: dash 4s linear;
+        animation: dash 4s linear;
+        display: block;
+        width: 100%;
+        height: auto;
+    }
+
+    &__title {
+        font-weight: 400;
+        text-transform: uppercase;
+        color: #8e44ad;
+        position: relative;
+        z-index: 200;
+        margin-bottom: 600px;
+    }
+}
+
+@keyframes dash {
+    from {
+        stroke-dashoffset: -5000;
+    }
+    to {
+        stroke-dashoffset: 0;
+    }
+}

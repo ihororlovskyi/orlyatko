@@ -1,6 +1,6 @@
 # Orlyatko
 
-Web development of Orlyatko svg animation :)
+Web development of Orlyatko svg animation experiment :)
 
 ### Run
 

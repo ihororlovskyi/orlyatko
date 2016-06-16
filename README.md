@@ -1,15 +1,12 @@
-# Orlyatko
+# orlyatko
 
-Web development of Orlyatko svg animation experiment :)
+SVG animation experiment (stroke-dashoffset animation)
+Stellar.js experiment (parallax effect)
 
 ### Run
 
 `npm i`
 
-`npm start` or `gulp`
-
-### Cast
-
-Front-end by [Ihor Orlovskyi](http://ihororlovskyi.com) (Lead Front-end Engineer at [Lucky Labs](http://lucky-labs.com) & [Rooster Studio](http://rooooster.com) Owner)
+`gulp`
 
 Proudly hosted by [GitHub Pages](https://pages.github.com)
